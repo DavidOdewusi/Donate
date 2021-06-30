@@ -9,7 +9,7 @@
 }
 
 html {
-    background-image: url(img/1.jpg);
+    background-image: url(img/1-min.jpg);
     background-position: center;
     background-size: cover;
     color: rgb(97, 97, 97);
@@ -20,10 +20,10 @@ html {
     overflow-x: hidden;
 }
 
-div {
+.container {
     background-color: rgb(240, 236, 236);
     width: 40%;
-    margin: 6% auto 0 auto;
+    margin: 5% auto 0 auto;
     box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.493);
 }
 
@@ -68,6 +68,7 @@ header {
 .img-text {
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .row {
@@ -81,14 +82,14 @@ header {
 }
 
 .copy {
-    width: 59.2%;
+    width: 54.2%;
     font-weight: 300;
-    font-size: 80%;
+    font-size: 70%;
     padding: 10px;
 }
 
 .social-nav {
-    width: 39.2%;
+    width: 44.2%;
     padding: 10px;
 }
 
@@ -106,7 +107,7 @@ ul {
 ul li {
     list-style: none;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 18px;
 }
 
 ul li a {
