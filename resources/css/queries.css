@@ -1,22 +1,69 @@
 
 
-@media only screen and (max-width: 480px) {
-
+@media only screen and (max-width: 1500px) {
+    body {
+        width: 45%;
+    }
 }  
 
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1500px) {
+    body {
+        width: 50%;
+    }
+}  
 
+
+@media only screen and (max-width: 1195px) {
+    body {
+        width: 55%;
+    }
+}  
+
+
+@media only screen and (max-width: 1186px) {
+    body {
+        width: 60%;
+    }
+}  
+
+@media only screen and (max-width: 1000px) {
+    body {
+        width: 70%;
+    }
 }
 
+@media only screen and (max-width: 1000px) {
+    body {
+        width: 80%;
+    }
+}
 
 /* for larger small phones 481-767 */
 @media only screen and (max-width: 767px) {
-
+    body {
+        width: 90%;
+    }
 }
 
 
 /* for small phones 0-480 */
-@media only screen and (max-width: 480px) {
-
+@media only screen and (max-width: 673px) {
+    body { width: 98%; }
+    .copy { font-size: 65%; }
+    ul li a { font-size: 80%; }
 } 
+
+@media only screen and (max-width: 635px) {
+    html { font-size: 18; }
+    .copy { width: 58.2%; }
+    .social-nav { width: 40.2%; }
+    ul li { margin-right: 10px; }
+}
+
+@media only screen and (max-width: 480px) {
+    html { font-size: 15px; }
+    .copy { width: 56.2%; }
+    .social-nav { width: 42.2%; }
+    ul li { margin-right: 8px; }
+}
